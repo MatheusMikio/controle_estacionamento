@@ -1,0 +1,22 @@
+{
+    "name": "controle-estacionamento/app",
+    "description": "Sistema de Controle de Estacionamento com SOLID e Clean Code",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\Service\\": "application/service/",
+            "Application\\DTO\\": "application/dto/",
+            "Domain\\Interfaces\\": "domain/interfaces/",
+            "Domain\\Models\\": "domain/models/",
+            "Domain\\Services\\": "domain/services/",
+            "Infra\\Database\\": "infra/database/",
+            "Infra\\Repository\\": "infra/repository/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
